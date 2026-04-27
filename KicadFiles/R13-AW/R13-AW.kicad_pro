@@ -188,8 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
-        0.5
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -467,12 +466,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "My-Fi Symbols"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "R12-AW.kicad_pro",
+    "filename": "R13-AW.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -632,7 +629,7 @@
   },
   "sheets": [
     [
-      "89516db4-9994-44d3-ab66-27e7433db9d8",
+      "35de1736-5581-4b8d-b0c7-a84e8ff91831",
       "Root"
     ]
   ],
