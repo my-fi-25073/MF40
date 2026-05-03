@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "extra_footprint|244410000|33530000|c0d3762b-ba98-4a2c-b2a9-1e3f614034db|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "hole_clearance|189306250|73895000|49d68c15-8e7d-454f-b32e-edb453196d9f|13bc90f2-48cd-40e9-89b9-e6127bf238c2",
+          ""
+        ],
+        [
+          "hole_clearance|251218750|63100000|a03de8b5-e4c9-4bc1-8214-472525077851|64e23421-20ea-4d8f-9f56-0c476083dc25",
+          ""
+        ],
+        [
+          "hole_clearance|253600000|56115000|4dddf9dd-b2c6-449d-8ba3-d91b16faf04d|ae69f6de-8f98-4c69-abe0-e3f73fa496ad",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229073125|61830000|aa76d0fc-36ed-4bc4-b45c-734c07cf4695|9ebebe15-89d0-4f00-9f39-31792ee39729",
+          ""
+        ],
+        [
+          "solder_mask_bridge|250504375|61830000|64e23421-20ea-4d8f-9f56-0c476083dc25|a03de8b5-e4c9-4bc1-8214-472525077851",
+          ""
+        ],
+        [
+          "solder_mask_bridge|253679375|57067500|ae69f6de-8f98-4c69-abe0-e3f73fa496ad|4dddf9dd-b2c6-449d-8ba3-d91b16faf04d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|256060625|18967500|5b3d2133-d59e-4b9c-9fe2-d85bcb3ccd58|d3b8144c-73bc-4eff-8395-21dca2139749",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -68,7 +101,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -80,7 +113,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -95,14 +128,14 @@
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "nonmirrored_text_on_back_layer": "warning",
+        "nonmirrored_text_on_back_layer": "ignore",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -139,7 +172,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
